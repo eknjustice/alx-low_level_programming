@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-main()
+int main(void)
 {
 	printf("size of a char is %2d bytes\n", sizeof(char));
 	printf("size of an int is %2d bytes\n", sizeof(int));
