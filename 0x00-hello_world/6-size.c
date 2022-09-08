@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 int main(void)
 {
 	printf("size of a char is %2d bytes\n", sizeof(char));
