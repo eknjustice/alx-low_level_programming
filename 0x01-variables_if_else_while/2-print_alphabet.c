@@ -8,14 +8,15 @@
 
 int main(void)
 {
-char alphabet = 'a';
-while (alphabet <='z';
-{
-putchar(alphabet);
-alphabet++;
-}
+	char alphabet = 'a';
 
-putchar('\n');
+	while (alphabet <='z';
+	{
+		putchar(alphabet);
+		alphabet++;
+	}
 
-return (0);
+	putchar('\n');
+
+	return (0);
 }
