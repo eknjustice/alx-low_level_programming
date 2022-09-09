@@ -1,11 +1,25 @@
 #include <stdio.h>
 
+/**
+ * main - prints string in the printf function
+ *
+ * Description: using the main function
+ * this program prints sizes of data types
+ * Return: 0
+ */
+
 int main(void)
 {
-	printf("size of a char: %2d bytes\n", sizeof(char));
-	printf("size of an int: %2d bytes\n", sizeof(int));
-	printf("size of a long int: %2d bytes\n", sizeof(long int));
-	printf("size of a long long int: %2d bytes\n", sizeof(long long int));
-	printf("size of a float: %2d bytes\n", sizeof(float));
+	char c;
+	int i;
+	long int l;
+	long long int x;
+	float f;
+
+	printf("size of a char: %2d bytes\n", sizeof(c));
+	printf("size of an int: %2d bytes\n", sizeof(i));
+	printf("size of a long int: %2d bytes\n", sizeof(l));
+	printf("size of a long long int: %2d bytes\n", sizeof(x));
+	printf("size of a float: %2d bytes\n", sizeof(f));
 	return (0);
 }
