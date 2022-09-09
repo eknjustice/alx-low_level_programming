@@ -4,11 +4,11 @@
  * main - prints string in the printf function
  *
  * Description: using the main function
- * this program prints "Programming is like building a multilingual puzzle
+ * this program prints size of data types
  * Return: 0
  */
 
-int main(void)
+int main()
 {
 	char c;
 	int i;
