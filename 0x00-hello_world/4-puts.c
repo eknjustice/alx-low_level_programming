@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints Programming is like building a multilingual puzzle using puts function
+ * main - print the strin in the puts function
+ * description -using the main function
+ * code prints Programming is like building a multilingual puzzle
+ * return:0
  */
 
 int main(void)
