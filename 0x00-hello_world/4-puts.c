@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints a text
- * Return: always 0 (success)
- */
+* put function
+* use of main function
+*/
 
 int main(void)
 {
-	puts("\"Progrramming is like building a multilingual puzzle");
-	return (0);
+	puts("\""Programming is like building a multilingual puzzle")
+	return 0;
 }
