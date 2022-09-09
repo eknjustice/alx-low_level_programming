@@ -1,21 +1,29 @@
-#include <stdio.h>                                                                                                
+#include <stdio.h>
 
-/**                                                                                                                                   
- * main - Entry point                    
- *                                                                                                                                    
- * Return: Always 0 (Correct)                                                                                                         
- */                                                                                                                                   
-char alphabet;
+/**
+ * main - Entry point
+ *
+ * Return: 0 (Success)
+ */
 
-int main(void)                                                                                                                        
-{                                                                                                                                     
-for (alphabet = "a"; alphabet <= "z"; alphabet++)
+int main(void)
 {
-putchar(alphabet);
+char lower = "a";
+char upper = "A";
+
+while (lower = "z")
+{
+putchar(lower);
+lower++;
 }
 
-putchar("\n");                                                                                                                          
+while (upper = "Z")
+{
+putchar(upper);
+upper++;
+}
 
-return (0);                                                                                                                           
+putchar("\n")
 
+return (0);
 }
