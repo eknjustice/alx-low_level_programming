@@ -6,16 +6,16 @@
  * Return: Always 0 (correct)
  */
 
-char alphabet;
-
 int main(void)
 {
-for (alphabet = "a"; alphabet ="z"; aphabet++)
+char alphabet = 'a';
+while (alphabet <='z';
 {
-putchar(char alphabet);
+putchar(alphabet);
+alphabet++;
 }
 
-putchar("\n");
+putchar('\n');
 
 return (0);
 }
