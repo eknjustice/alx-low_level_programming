@@ -6,10 +6,9 @@
  * Return: Always 0 (success)
  *
  */
-
-int main(void)
+main(void)
 {
-char * alpha;
+char alpha;
 
 alpha = "a";
 
