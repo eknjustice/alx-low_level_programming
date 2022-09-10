@@ -13,7 +13,9 @@ while (alpha <= 'z')
 putchar(alpha);
 alpha++;
 if (alpha == 'e' and alpha == 'q')
+{
 continue;
+}
 }
 putchar('\n')
 return (0);
