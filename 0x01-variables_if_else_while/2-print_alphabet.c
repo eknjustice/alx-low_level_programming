@@ -3,20 +3,20 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (correct)
+ * Return: Always 0 (success)
+ *
  */
 
-int main(void)
+int main()
 {
-	char alphabet = 'a';
+char alpha;
+alpha = "a";
+while (alpha <= "z")
+{
+putchar(alpha);
+alpha++;
+}
+putchar("\n");
 
-	while (alphabet <= 'z');
-	{
-	putchar(alphabet);
-	alphabet++;
-	}
-
-	putchar('\n');
-
-	return (0);
+return (0);
 }
