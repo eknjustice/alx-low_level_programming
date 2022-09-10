@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  * description - putchar prints alphabet letters 
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 char c;
