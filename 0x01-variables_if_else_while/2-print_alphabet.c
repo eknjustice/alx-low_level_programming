@@ -2,6 +2,7 @@
 
 /*
  *main-Entry point
+ *putchar-print a character
  *Return-Always 0 (Success)
  */
 
@@ -9,8 +10,8 @@ int main(void)
 {
 char c;
 
-c='a';
-while (c<='z')
+c = 'a';
+while (c <= 'z')
 {
 putchar(c);
 ++c;
