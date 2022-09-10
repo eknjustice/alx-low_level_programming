@@ -2,8 +2,8 @@
 
 /*
  *main-Entry point
- *putchar-print a character
- *Return-Always 0 (Success)
+ *description-putchar prints a character
+ *Return: Always 0 (Success)
  */
 
 int main(void)
