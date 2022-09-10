@@ -5,7 +5,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main()
 {
 int ones = '0';
 int tens = '0';
