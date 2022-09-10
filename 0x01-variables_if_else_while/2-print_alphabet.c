@@ -6,19 +6,16 @@
  * Return: Always 0 (success)
  *
  */
-main(void)
+int main(void)
 {
-int alpha;
+char alpha;
 
-alpha = a
-
-while (alpha <= z)
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
-putchar(alpha);
-alpha++;
+putchar(alpha)
 }
 
-putchar("\n");
+putchar('\n');
 
 return (0);
 }
