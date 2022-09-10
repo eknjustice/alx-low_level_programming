@@ -1,18 +1,20 @@
 #include <stdio.h>
 /*
- *
  * main-Entry point
- *Return: always 0 (success)
+ * Return: always 0 (success)
  */
+
 int main(void)
 {
-char alpha;
-alpha="a";
-while (alpha<="z")
+char alpha = 'a';
 
+while (alpha <= 'z') 
 {
 putchar(alpha);
 alpha++;
+if (alpha == 'e' and alpha == 'q')
+continue;
 }
-if (alpha=="e" or alpha
-if
+putchar('\n')
+return (0);
+}
