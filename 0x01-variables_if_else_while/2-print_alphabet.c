@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
+/**
  *main-Entry point
- *description-putchar prints a character
+ *Description-putchar prints a character
  *Return: Always 0 (Success)
  */
 
