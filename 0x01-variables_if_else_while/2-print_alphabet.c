@@ -8,11 +8,11 @@
  */
 main(void)
 {
-char alpha;
+int alpha;
 
-alpha = "a";
+alpha = a
 
-while (alpha <= "z")
+while (alpha <= z)
 {
 putchar(alpha);
 alpha++;
