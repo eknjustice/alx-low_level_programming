@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the alphabet followed by a newline
+ * print_alphabet - prints lowercase alphabet followed by new line
  */
 
 void print_alphabet(void)
 {
 char letter = 'a';
-while (letter <= 'z')
+while (letter = 'z')
 {
 _putchar(letter);
 letter++;
