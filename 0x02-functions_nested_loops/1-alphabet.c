@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - prints the alphabet followed by a newline
- * Return: Always 0.
+ * print_alphabet - prints the alphabet followed by a newline
+ * 
  */
 
 void print_alphabet(void)
