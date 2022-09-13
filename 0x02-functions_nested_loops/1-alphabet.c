@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet - prints the alphabet followed by a newline
- * 
  */
 
 void print_alphabet(void)
