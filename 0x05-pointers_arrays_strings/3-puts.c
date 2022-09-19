@@ -12,5 +12,6 @@ int i;
 for (i = 0; *str != '\0'; i++)
 {
 _putchar(*str++);
+}
 _putchar('\n');
 }
