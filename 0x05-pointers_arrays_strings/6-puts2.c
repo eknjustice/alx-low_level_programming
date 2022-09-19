@@ -1,25 +1,31 @@
 #include "main.h"
 
 /**
- * puts_half - prints half of a string followed by a new line
- * @str: the argument
+ * _strlen - returns the length of a string
+ * @s: string
+ * Return: length
  */
 
-void puts_half(char *str)
+int _strlen(char *s)
 {
-int x;
-
-x = 0;
-while (str[x])
-x++;
-if (x % 2 != 0)
-x = (x + 1) / 2; /*Add 1: decrease length of odd string half*/
-else
-x = x / 2;
-while (str[x])
+int len = 0;
+while (*s != '\0')
 {
-_putchar(str[x]);
-x++;
+len++;
+s++;
 }
+return (len);
+}
+
+/**
+ * puts2 - prints every second character of a string, followed by a new line
+ * @str: string to print
+ */
+
+void puts2(char *str)
+{
+int i;
+for (i = 0; str[i] != '\0' && i < _strlen(str); i += 2)
+_putchar(str[i]);
 _putchar('\n');
 }
