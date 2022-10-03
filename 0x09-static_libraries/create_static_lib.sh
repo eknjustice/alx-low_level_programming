@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ar -rc liball.a *.o
+ar -rc liball.a *.o
