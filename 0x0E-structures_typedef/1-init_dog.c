@@ -10,6 +10,6 @@
 int main(void)
 {
 struct dog;
-init_dog(dog, "Poppy", 3.5, "Bob");
+init_dog(&dog, "Poppy", 3.5, "Bob");
 return (0);
 }
