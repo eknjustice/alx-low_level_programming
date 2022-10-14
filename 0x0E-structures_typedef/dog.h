@@ -1,3 +1,5 @@
+#ifndef "dog.h"
+#define "dog.h"
 /**
  * struct dog - Short description
  * @name: First member
@@ -13,3 +15,5 @@ struct dog
 	float age;
 	char *owner;
 };
+
+#endif
