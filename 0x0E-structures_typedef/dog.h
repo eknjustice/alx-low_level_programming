@@ -7,15 +7,9 @@
  * Description: Longer description
  */
 
-struct dog my_dog
+struct dog
 {
-	char *name;
-	/**
-	 * @name: This is longer description of C
-	 *
-	 * Description: You can use paragraphs to describe arguments
-	 * using this method.
-	 */
-	float age;
-	char *owner;
+char *name;
+float age;
+char *owner;
 };
