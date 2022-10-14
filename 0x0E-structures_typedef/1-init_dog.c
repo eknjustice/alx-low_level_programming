@@ -1,8 +1,15 @@
 #include <stdio.h>
 #include "dog.h"
-struct dog
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+
+int main(void)
 {
-	char *name;
-	float age;
-	char *owner;
-};
+struct dog;
+init_dog(dog, "Poppy", 3.5, "Bob");
+return (0);
+}
