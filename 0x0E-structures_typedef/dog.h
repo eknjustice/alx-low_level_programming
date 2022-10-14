@@ -7,7 +7,7 @@
  * Description: Longer description
  */
 
-struct dog
+struct dog my_dog
 {
 	char *name;
 	/**
