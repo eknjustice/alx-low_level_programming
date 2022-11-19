@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdlib.h>
 
 /**
  * flip_bits - returns the number of bits you would
